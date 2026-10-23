@@ -1,0 +1,29 @@
+{
+  "simulation_time_s": 640,
+  "coupling_time_step_s": 0.01,
+  "number_of_time_steps": 64000,
+  "output_time_step_s": 0.05,
+  "coupling_algorithm": "IQNI-ILS",
+  "predictor": "SoilDyn-informed",
+  "initial_relaxation_factor": 0.02,
+  "history_steps": 4,
+  "min_significant": 1e-10,
+  "convergence_criterion": "scaled residual",
+  "convergence_tolerance": 1e-07,
+  "interface_motion": [
+    "U1",
+    "U2",
+    "U3",
+    "UR1",
+    "UR2",
+    "UR3"
+  ],
+  "interface_reactions": [
+    "RF1",
+    "RF2",
+    "RF3",
+    "RM1",
+    "RM2",
+    "RM3"
+  ]
+}
