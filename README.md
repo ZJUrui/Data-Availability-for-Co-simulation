@@ -14,3 +14,7 @@ reference_results/        0–640 s structural response files (.outb)
 | DS_LC51 | Wind + wave |
 
 Convergence: scaled residual, tolerance 1e-7.
+
+## Nomenclature
+
+The nomenclature is provided in [Nomenclature.pdf](Nomenclature.pdf).
